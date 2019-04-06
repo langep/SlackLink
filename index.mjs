@@ -3,7 +3,7 @@ import http from 'http';
 import bootstrap from './server/bootstrap';
 import { log } from './utils';
 
-const port = 5000;
+const port = process.env.PORT || 5000;
 
 const app = express();
 
