@@ -9,7 +9,11 @@ const getToken = userId => {
       if (err) {
         reject(err);
       } else {
-        resolve(reply.toString());
+        if (reply) {
+          resolve(reply.toString());
+        } else {
+          reject(new Error('Token not found.'));
+        }
       }
     });
   });
