@@ -4,7 +4,17 @@ I created this app because it was not possible to post markdown style links like
 If you host this app and configure it for your workspace you will be able to use the following format `<https://www.google.com|Link to Google>`
 in messages prefixed with the `/mdl` slash command. You can customize this command when creating the SlackApp but I am using it from here on out for simplicity.
 
+
 - [MarkdownLink](#markdownlink)
+  - [Gotchas](#gotchas)
+  - [Installation](#installation)
+    - [Create a Slack App for your Workspace](#create-a-slack-app-for-your-workspace)
+    - [Host this code on Heroku](#host-this-code-on-heroku)
+  - [Usage](#usage)
+    - [Formatting links](#formatting-links)
+    - [Authentication](#authentication)
+  - [Development](#development)
+
 
 ## Gotchas
 
