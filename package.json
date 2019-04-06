@@ -1,0 +1,21 @@
+{
+  "name": "markdownlink",
+  "version": "1.0.0",
+  "description": "Slack APP converting Markdown links into link buttons.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Patrick Lange <mail@langep.com> (https://langep.com)",
+  "license": "MIT",
+  "dependencies": {
+    "@slack/web-api": "^5.0.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "tracer": "^0.9.8"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
