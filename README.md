@@ -53,4 +53,3 @@ The first time you are using `/mdl` or the command you configured, it will ask y
 ## Development
 
 TBD - Information about using --experimental-modules and nodemon or heroku local web
-

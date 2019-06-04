@@ -13,9 +13,13 @@
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
     "morgan": "^1.9.1",
+    "redis": "^2.8.0",
     "tracer": "^0.9.8"
   },
   "devDependencies": {
     "nodemon": "^1.18.10"
+  },
+  "engines": {
+    "node": "10.x"
   }
 }
