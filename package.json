@@ -9,7 +9,7 @@
   "author": "Patrick Lange <mail@langep.com> (https://langep.com)",
   "license": "MIT",
   "dependencies": {
-    "@slack/web-api": "^5.0.0",
+    "@slack/web-api": "^5.0.1",
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
     "morgan": "^1.9.1",
